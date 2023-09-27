@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Martian+Mono:wght@400;500;700&family=Mulish:wght@300;400;500&family=Sofia+Sans:wght@300;400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Martian Mono", monospace;
+}
+
+li {
+  font-family: "Sofia Sans", sans-serif;
+}
+
+span {
+  font-family: "Sofia Sans", sans-serif;
+}
+
+input {
+  @apply border-[2px] border-gray-300 text-black py-4 mx-12 pl-2 max-sm:mx-8 rounded-[10px];
+}
