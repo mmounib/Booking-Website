@@ -3,7 +3,8 @@ import App from "./App.tsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./ErrorPage.tsx";
-import { LoginPage, RegisterPage } from "./exports.ts";
+import { LoginPage, Profile, RegisterPage } from "./exports.ts";
+import { UserProvider } from "./ContextProvider.tsx";
 
 const router = createBrowserRouter([
   {
@@ -17,18 +18,20 @@ const router = createBrowserRouter([
       },
       {
         path: "/register",
-        element: <RegisterPage />
-      }
+        element: <RegisterPage />,
+      },
+      {
+        path: "/account",
+        element: <Profile />,
+      },
     ],
   },
-  // {
-  //   path: "/login",
-  //   element: <LoginPage />,
-  // }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <>
-    <RouterProvider router={router} />
+    <UserProvider>
+      <RouterProvider router={router} />
+    </UserProvider>
   </>
 );

@@ -1,10 +1,14 @@
 import { TbBrandBooking } from "react-icons/tb";
 import { Link } from "react-router-dom";
 import { IoIosSearch } from "react-icons/io";
-import {RxHamburgerMenu} from 'react-icons/rx'
-import {VscAccount} from 'react-icons/vsc'
+import { RxHamburgerMenu } from "react-icons/rx";
+import { VscAccount } from "react-icons/vsc";
+import { useContext } from "react";
+import { UserContext } from "../../ContextProvider";
 
 const Navbar = () => {
+  const { user } = useContext(UserContext);
+
   return (
     <header className="w-[85%] mx-auto my-8">
       <nav>
@@ -37,8 +41,17 @@ const Navbar = () => {
             </button>
           </div>
           <div className="flex gap-8 items-center bg-primary rounded-xl py-3 px-7">
-            <RxHamburgerMenu size={20} className="text-white cursor-pointer"/>
-            <VscAccount size={30} className="text-white cursor-pointer"/>
+            <RxHamburgerMenu size={20} className="text-white cursor-pointer" />
+            <div className="flex items-center gap-2 ">
+              {!!user && (
+                <Link to="/account" className="text-white text-base capitalize">
+                  {user.name}
+                </Link>
+              )}
+              <Link to={user ? "/account" : "/login"}>
+                <VscAccount size={30} className="text-white cursor-pointer" />
+              </Link>
+            </div>
           </div>
         </div>
       </nav>
