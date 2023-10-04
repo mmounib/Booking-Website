@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a814638d-0306-4177-943f-f9dfdfb8d635" name="Changes" comment="" />
+    <list default="true" id="a814638d-0306-4177-943f-f9dfdfb8d635" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/components/Profile/Bookings.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Profile/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Profile/Profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/UserAuthentication/RegisterPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/UserAuthentication/RegisterPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/exports.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/exports.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +22,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/client/vite.config.ts" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -30,13 +45,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/mouad/Desktop/Booking-Website",
+    "last_opened_file_path": "/home/mouad/Desktop/Ecommerce-Website",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "configurable.tailwindcss",
     "ts.external.directory.path": "/home/mouad/Desktop/Booking-Website/client/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -51,7 +67,13 @@
       <updated>1696257542751</updated>
       <workItem from="1696257543686" duration="158000" />
       <workItem from="1696257709956" duration="38000" />
-      <workItem from="1696258544131" duration="1224000" />
+      <workItem from="1696258544131" duration="2744000" />
+      <workItem from="1696353107436" duration="1426000" />
+      <workItem from="1696355575675" duration="430000" />
+      <workItem from="1696356023506" duration="36000" />
+      <workItem from="1696356073598" duration="205000" />
+      <workItem from="1696356279963" duration="640000" />
+      <workItem from="1696425582365" duration="14000" />
     </task>
     <servers />
   </component>

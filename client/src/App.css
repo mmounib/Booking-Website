@@ -2,3 +2,10 @@
   max-width: 1400px;
   margin: 0 auto;
 }
+
+.active {
+  background-color: rgb(190 24 93 / 1);
+  padding: 15px 25px;
+  border-radius: 50px;
+  color: white;
+}

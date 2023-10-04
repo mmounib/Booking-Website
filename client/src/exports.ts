@@ -3,6 +3,7 @@ import LoginPage from "./components/UserAuthentication/LoginPage";
 import Navbar from "./components/Navbar/Navbar";
 import RegisterPage from "./components/UserAuthentication/RegisterPage";
 import Profile from "./components/Profile/Profile";
+import Bookings from "./components/Profile/Bookings";
 
 export {
     Navbar,
@@ -10,4 +11,5 @@ export {
     Footer,
     RegisterPage,
     Profile,
+    Bookings,
 }
