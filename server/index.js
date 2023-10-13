@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
 const app = express();
 const cors = require("cors");
+const placeModel = require("./models/places");
 const User = require("./models/models");
 const jwt = require("jsonwebtoken");
 const cookieParser = require("cookie-parser");
@@ -71,6 +72,10 @@ app.get("/verify", (req, res) => {
     );
   else res.json(null);
 });
+
+app.post("/logout", (req, res) => {
+  res.cookie('accessToken', '').json(true);
+})
 
 app.listen(3000, () => console.log(`app listening on port 3000!`));
 

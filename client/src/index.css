@@ -26,3 +26,8 @@ span {
 input {
   @apply border-[2px] border-gray-300 text-black py-4 mx-12 pl-2 max-sm:mx-8 rounded-[10px];
 }
+
+label {
+  padding-bottom: 10px;
+  font-size: 18px;
+}

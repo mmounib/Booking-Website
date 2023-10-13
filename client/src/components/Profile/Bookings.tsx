@@ -2,7 +2,7 @@
 const Bookings = () => {
     return (
         <div>
-
+            Booking
         </div>
     );
 };
